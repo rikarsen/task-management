@@ -71,14 +71,14 @@
                 </div>
                 <div *ngIf="selectedGroup === 'status'">
                   <button
-                    class="btn btn-secondary btn-sm mr-2"
+                    class="btn btn-secondary btn-sm"
                     (click)="moveTask(groupI, taskI, -1)"
                     *ngIf="groupI"
                   >
                     &larr;
                   </button>
                   <button
-                    class="btn btn-secondary btn-sm"
+                    class="btn btn-secondary btn-sm ml-2"
                     (click)="moveTask(groupI, taskI, 1)"
                     *ngIf="objectKeys(groups).length - 1 !== groupI"
                   >
