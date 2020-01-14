@@ -11,7 +11,7 @@ Angular provides the frontend and accesses the [Mocky](https://www.mocky.io/) AP
 
 ## Installation
 
-1. Clone the repository: `git clone git@github.com:rikarsen/task-management`
+1. Clone the repository: `git clone https://github.com/rikarsen/task-management.git`
 2. Install the application: `yarn`
 3. Start development server: `yarn start`
 4. View in browser at `http://localhost:4200`
